@@ -1,4 +1,4 @@
 class Race < ApplicationRecord
 	has_many :users
-	has_one :distances
+	has_one :distance
 end
