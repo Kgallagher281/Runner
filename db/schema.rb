@@ -10,19 +10,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171025162106) do
+ActiveRecord::Schema.define(version: 20171025190632) do
 
   create_table "distances", force: :cascade do |t|
-    t.integer "type"
+    t.integer "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "friendships", force: :cascade do |t|
+    t.integer "user_id"
+    t.integer "friend_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["friend_id"], name: "index_friendships_on_friend_id"
+    t.index ["user_id"], name: "index_friendships_on_user_id"
   end
 
   create_table "posts", force: :cascade do |t|
     t.string "title"
     t.text "body"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_posts_on_user_id"
   end
 
   create_table "races", force: :cascade do |t|
@@ -35,13 +46,24 @@ ActiveRecord::Schema.define(version: 20171025162106) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "user_races", force: :cascade do |t|
+    t.integer "user_id"
+    t.integer "race_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["race_id"], name: "index_user_races_on_race_id"
+    t.index ["user_id"], name: "index_user_races_on_user_id"
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
     t.string "username"
     t.string "password"
+    t.integer "distance_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["distance_id"], name: "index_users_on_distance_id"
   end
 
 end
