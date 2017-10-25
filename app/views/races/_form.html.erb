@@ -1,0 +1,42 @@
+<%= form_with(model: race, local: true) do |form| %>
+  <% if race.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(race.errors.count, "error") %> prohibited this race from being saved:</h2>
+
+      <ul>
+      <% race.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :race_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :details %>
+    <%= form.text_area :details, id: :race_details %>
+  </div>
+
+  <div class="field">
+    <%= form.label :date %>
+    <%= form.datetime_select :date, id: :race_date %>
+  </div>
+
+  <div class="field">
+    <%= form.label :address %>
+    <%= form.text_field :address, id: :race_address %>
+  </div>
+
+  <div class="field">
+    <%= form.label :distance %>
+    <%= form.number_field :distance, id: :race_distance %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
