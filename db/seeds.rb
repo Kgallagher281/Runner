@@ -96,7 +96,7 @@ Friendship.create([
 	}
 ])
 
-User_race.create([
+UserRace.create([
 	{
 		id: 1,
 		user_id: 1,
