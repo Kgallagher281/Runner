@@ -32,7 +32,8 @@ User.create([
 		last_name: "Kusuma",
 		username: "ckusuma",
 		password: "1",
-		distance_id: 1
+		distance_id: 1,
+		photo: open('http://static.wixstatic.com/media/3cc615_323631ae328f4ea2b8a4d8837f08107d.jpg_256')
 	},
 	{
 		id: 2,
@@ -40,7 +41,8 @@ User.create([
 		last_name: "Gallagher",
 		username: "kgallagher",
 		password: "2",
-		distance_id: 2
+		distance_id: 2,
+		photo: open('http://static.wixstatic.com/media/3cc615_323631ae328f4ea2b8a4d8837f08107d.jpg_256')
 	},
 	{
 		id: 3,
@@ -48,7 +50,8 @@ User.create([
 		last_name: "Friend",
 		username: "bff",
 		password: "3",
-		distance_id: 3
+		distance_id: 3,
+		photo: open('http://static.wixstatic.com/media/3cc615_323631ae328f4ea2b8a4d8837f08107d.jpg_256')
 	}
 ])
 
