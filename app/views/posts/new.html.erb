@@ -1,5 +1,16 @@
-<h1>New Post</h1>
+<h1>Add new Posts</h1>
 
-<%= render 'form', post: @post %>
+<form method="POST" action="/posts">
+	<h4> Post Title<br><h2><input type="text" name="post[title]" style="width: 200px"></h2></h4>
 
-<%= link_to 'Back', posts_path %>
+	<h4> Post Body<br><input type="text" name="post[body]" style="width: 500px;height:200px ;"></h4>
+<!-- This allows the Ruby system to accept the new form -->
+<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+<input type="Submit" value="Post">
+</form>
+
+<br>
+
+<%= link_to 'Previous', posts_path %>
+
+
