@@ -415,6 +415,12 @@
 		"oAP": "\/app\/views\/home\/_navbar.html.erb",
 		"oF": 0
 		},
+	"\/app\/views\/home\/_searchbar.html.erb": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/app\/views\/home\/_searchbar.html.erb",
+		"oF": 0
+		},
 	"\/app\/views\/layouts\/application.html.erb": {
 		"ft": 8192,
 		"oA": 2,
@@ -539,6 +545,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/app\/views\/users\/new.html.erb",
+		"oF": 0
+		},
+	"\/app\/views\/users\/search.html.erb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/views\/users\/search.html.erb",
 		"oF": 0
 		},
 	"\/app\/views\/users\/show.html.erb": {
@@ -779,12 +791,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/db\/seeds.rb",
-		"oF": 0
-		},
-	"\/db\/test.sqlite3": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/db\/test.sqlite3",
 		"oF": 0
 		},
 	"\/Gemfile": {

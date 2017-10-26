@@ -1,5 +1,16 @@
+.navbar ul {
+  margin: 0;
+  padding: 0; }
+
 .navbar li {
   list-style-type: none;
   display: inline-block;
-  padding: 5px;
-  background-color: orange; }
+  padding: 10px 40px;
+  background-color: orange;
+  text-align: right; }
+
+.home-page, .profile-page {
+  padding: 40px; }
+
+.home-page {
+  background-color: lightblue; }

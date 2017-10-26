@@ -1,8 +1,8 @@
-<div class="profile-page">
+<%= render 'home/navbar' %>
+
+<div class="profile-page" class="page">
 
 	<p id="notice"><%= notice %></p>
-
-	<%= render 'home/navbar' %>
 
 	<h1><%= @user.first_name %> <%= @user.last_name %></h1>
 
@@ -11,30 +11,21 @@
 	<h2>Upcoming Races</h2>
 
 	<table>
-	  <thead>
-	    <tr>
-	      <th>Name</th>
-	      <th>Details</th>
-	      <th>Date</th>
-	      <th>Address</th>
-	      <th>Distance</th>
-	      <th colspan="3"></th>
-	    </tr>
-	  </thead>
 
 	  <tbody>
 	    <% @user.races.each do |race| %>
 	      <tr>
+	      	<% if race.id == @current_user.id %>
+	      	<td><%= link_to 'x', race, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+	      	<% end %>
+	      	<td><%= race.date %></td>
+	      	<td><%= race.address %></td>
 	        <td><%= link_to race.name, race %></td>
 	        <td><%= race.details %></td>
-	        <td><%= race.date %></td>
-	        <td><%= race.address %></td>
 	        <td><%= race.distance %></td>
           
 	        <% if race.id == @current_user.id %>
 	        <td><%= link_to 'Edit', edit_race_path(race) %></td>
-	        <td><%= link_to 'Destroy', race, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-	        <td><%= link_to 'New Race', new_race_path %></td>
 	        <% end %>
 	      </tr>
 	    <% end %>
@@ -44,22 +35,15 @@
 	<h2>Your Posts</h2>
 	<img src="http://static.wixstatic.com/media/3cc615_323631ae328f4ea2b8a4d8837f08107d.jpg_256">
 	<table>
-	  <thead>
-	    <tr>
-	      <th>Title</th>
-	      <th>Body</th>
-	      <th colspan="3"></th>
-	    </tr>
-	  </thead>
 
 	  <tbody>
 	    <% @user.posts.each do |post| %>
 	      <tr>
+	      	<td><%= link_to 'x', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
 	        <td><%= link_to post.title, post %></td>
 	        <td><%= post.body %></td>
 	        <% if post.user_id == @current_user.id %>
 	        <td><%= link_to 'Edit', edit_post_path(post) %></td>
-	        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
 	        <td><%= link_to 'Create New Post', new_post_path %></td>
 	        <% end %>
 	      </tr>
