@@ -1,7 +1,8 @@
 class HomeController < ApplicationController
 
+	# Newsfeed of posts from friends
 	def index
-
+		redirect_to posts_path
 	end
 
   # Post method to handle login, go to posts#index
