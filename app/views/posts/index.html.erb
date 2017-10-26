@@ -14,7 +14,7 @@
 
     <p><a href="/users/<%= post.user.id %>">
       <%= post.user.first_name + " " + post.user.last_name %></a></p>
-        <strong><%= post.title %></strong>
+        <strong><%= link_to post.title, post %></strong>
         <br>
         <%= post.body %>
     <% end %>
@@ -40,12 +40,11 @@
       <tbody>
         <% @races.each do |race| %>
           <tr>
-            <td><%= race.name %></td>
+            <td><%= link_to race.name, race %></td>
             <td><%= race.details %></td>
             <td><%= race.date %></td>
             <td><%= race.address %></td>
             <td><%= race.distance %></td>
-            <td><%= link_to 'Show', race %></td>
             <td><%= link_to 'Edit', edit_race_path(race) %></td>
             <td><%= link_to 'Destroy', race, method: :delete, data: { confirm: 'Are you sure?' } %></td>
           </tr>

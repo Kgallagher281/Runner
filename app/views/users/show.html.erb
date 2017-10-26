@@ -25,13 +25,13 @@
 	  <tbody>
 	    <% @user.races.each do |race| %>
 	      <tr>
-	        <td><%= race.name %></td>
+	        <td><%= link_to race.name, race %></td>
 	        <td><%= race.details %></td>
 	        <td><%= race.date %></td>
 	        <td><%= race.address %></td>
 	        <td><%= race.distance %></td>
+          
 	        <% if race.id == @current_user.id %>
-	        <td><%= link_to 'Show', race %></td>
 	        <td><%= link_to 'Edit', edit_race_path(race) %></td>
 	        <td><%= link_to 'Destroy', race, method: :delete, data: { confirm: 'Are you sure?' } %></td>
 	        <% end %>
@@ -58,10 +58,9 @@
 	  <tbody>
 	    <% @user.posts.each do |post| %>
 	      <tr>
-	        <td><%= post.title %></td>
+	        <td><%= link_to post.title, post %></td>
 	        <td><%= post.body %></td>
 	        <% if post.user_id == @current_user.id %>
-	        <td><%= link_to 'Show', post %></td>
 	        <td><%= link_to 'Edit', edit_post_path(post) %></td>
 	        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
 	        <% end %>

@@ -865,6 +865,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/public\/default.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/public\/default-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/public\/default.scss": {
 		"aP": 0,
 		"bl": 0,
