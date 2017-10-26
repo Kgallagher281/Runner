@@ -60,6 +60,10 @@ ActiveRecord::Schema.define(version: 20171025190632) do
     t.string "last_name"
     t.string "username"
     t.string "password"
+    t.string "photo_file_name"
+    t.string "photo_content_type"
+    t.integer "photo_file_size"
+    t.datetime "photo_updated_at"
     t.integer "distance_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

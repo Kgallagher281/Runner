@@ -6,6 +6,8 @@
 
 	<h1><%= @user.first_name %> <%= @user.last_name %></h1>
 
+	<%= image_tag @user.photo.url(:medium) %>
+
 	<%= link_to 'Edit', edit_user_path(@user) %> |
 
 	<h2>Upcoming Races</h2>
@@ -33,7 +35,6 @@
 	</table>
 
 	<h2>Your Posts</h2>
-	<img src="http://static.wixstatic.com/media/3cc615_323631ae328f4ea2b8a4d8837f08107d.jpg_256">
 	<table>
 
 	  <tbody>

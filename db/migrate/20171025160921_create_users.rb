@@ -5,6 +5,7 @@ class CreateUsers < ActiveRecord::Migration[5.1]
       t.string :last_name
       t.string :username
       t.string :password
+      t.attachment :photo
 
       t.references :distance, foreign_key: true
 
