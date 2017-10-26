@@ -12,6 +12,7 @@ class UsersController < ApplicationController
   # Show all of users posts
   def show
     @posts = Post.all
+    @races = Race.all
   end
 
   # GET /users/new
