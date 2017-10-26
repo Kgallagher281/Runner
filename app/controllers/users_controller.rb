@@ -14,6 +14,24 @@ class UsersController < ApplicationController
     @races = @current_user ? @current_user.races : []
   end
 
+  def search
+    @results = User.search(params[:search])
+  end
+
+  def add_friend
+    @friend = Friendship.new(friendship_params)
+    @friend.user_id = @current_user.id
+    respond_to do |format|
+      if @friend.save
+      format.html { redirect_to :root, notice: 'Friend was successfully added.' }
+      format.json { head :no_content }
+      else
+        format.html { render :root }
+        format.json { render json: @user.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
   # GET /users/new
   def new
     @user = User.new
@@ -84,5 +102,9 @@ class UsersController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
       params.require(:user).permit(:first_name, :last_name, :username, :password)
+    end
+
+    def friendship_params
+      params.permit(:friend_id)
     end
 end

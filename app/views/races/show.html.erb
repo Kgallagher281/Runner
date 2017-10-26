@@ -1,10 +1,10 @@
-<div class="show-race">
-  <%= render 'home/navbar' %>
+<%= render 'home/navbar' %>
 
-  <p>
-    <strong>Name:</strong>
+<div class="show-race" class="page">
+
+  <h2>
     <%= @race.name %>
-  </p>
+  </h2>
 
   <p>
     <strong>Details:</strong>
@@ -27,5 +27,4 @@
   </p>
 
   <%= link_to 'Edit', edit_race_path(@race) %> |
-  <%= link_to 'Back', races_path %>
 </div>

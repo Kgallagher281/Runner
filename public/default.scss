@@ -2,15 +2,28 @@
 // All pages
 
 .navbar {
+	ul {
+		margin: 0;
+		padding: 0;
+	}
 	li {
 		list-style-type: none;
 		display: inline-block;
-		padding: 5px;
+		padding: 10px 40px;
 		background-color: orange;
+		text-align: right;
 	}
 }
 
+.home-page, .profile-page {
+	padding: 40px;
+}
+
 // Home page
+
+.home-page {
+	background-color: lightblue;
+}
 
 // Profile page
 

@@ -1,0 +1,16 @@
+<%= render 'home/navbar' %>
+
+<div class="search-page">
+
+	<% @results.each do |user| %>
+
+		<ul>
+			<li><%= user.full_name %></li>
+			<%= link_to 'Add friend', friendship_path(friend_id: user.id), method: :post, data: { confirm: 'Are you sure?' } %>
+		</ul>
+
+	<% end %>
+
+</div>
+
+

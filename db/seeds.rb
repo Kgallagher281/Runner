@@ -41,6 +41,14 @@ User.create([
 		username: "kgallagher",
 		password: "2",
 		distance_id: 2
+	},
+	{
+		id: 3,
+		first_name: "Best",
+		last_name: "Friend",
+		username: "bff",
+		password: "3",
+		distance_id: 3
 	}
 ])
 
