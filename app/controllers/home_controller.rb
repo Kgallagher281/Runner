@@ -4,7 +4,7 @@ class HomeController < ApplicationController
 
 	end
 
-  # Post method to handle login
+  # Post method to handle login, go to posts#index
   def handle_login
     user = User.find_by(username: params[:user][:username])
     if user && user.password == params[:user][:password]
