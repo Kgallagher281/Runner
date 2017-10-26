@@ -21,6 +21,18 @@ class UsersController < ApplicationController
   def edit
   end
 
+  # Login form
+  def login
+    @user = User.find_by(email: params[:email])
+    if user && user.password == params[:password]
+      session[:user_id] = user.id
+      session[:password] = user.password
+      redirect '/'
+    else
+      redirect back
+    end
+  end
+
   # POST /users
   # POST /users.json
   def create
