@@ -31,3 +31,15 @@
 <%= link_to 'Create New Post', new_post_path %>
 
 </div>
+
+
+  <h1>Newsfeed</h1>
+<% @posts.each do |post| %>
+
+
+<p><a href="/users/<%= post.user.id %>">
+  <%= post.user.first_name + " " + post.user.last_name %></a></p>
+    <strong><%= post.title %></strong>
+    <br>
+    <%= post.body %>
+<% end %>
