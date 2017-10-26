@@ -9,7 +9,9 @@ class UsersController < ApplicationController
 
   # GET /users/1
   # GET /users/1.json
+  # Show all of users posts
   def show
+    @posts = Post.all
   end
 
   # GET /users/new

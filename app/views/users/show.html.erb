@@ -1,28 +1,42 @@
-<div class="user-profile">
+<div class="profile-page">
 
 	<p id="notice"><%= notice %></p>
 
-	<p>
-	  <strong>First name:</strong>
-	  <%= @user.first_name %>
-	</p>
+	<%= render 'home/navbar' %>
 
-	<p>
-	  <strong>Last name:</strong>
-	  <%= @user.last_name %>
-	</p>
-
-	<p>
-	  <strong>Username:</strong>
-	  <%= @user.username %>
-	</p>
-
-	<p>
-	  <strong>Password:</strong>
-	  <%= @user.password %>
-	</p>
+	<h1><%= @user.first_name %> <%= @user.last_name %></h1>
 
 	<%= link_to 'Edit', edit_user_path(@user) %> |
 	<%= link_to 'Back', posts_path %>
+
+	<h2>Your Posts</h2>
+	<img src="http://static.wixstatic.com/media/3cc615_323631ae328f4ea2b8a4d8837f08107d.jpg_256">
+	<table>
+	  <thead>
+	    <tr>
+	      <th>Title</th>
+	      <th>Body</th>
+	      <th colspan="3"></th>
+	    </tr>
+	  </thead>
+
+	  <tbody>
+	    <% @posts.each do |post| %>
+	      <tr>
+	        <td><%= post.title %></td>
+	        <td><%= post.body %></td>
+	        <td><%= link_to 'Show', post %></td>
+	        <td><%= link_to 'Edit', edit_post_path(post) %></td>
+	        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+	      </tr>
+	    <% end %>
+	  </tbody>
+	</table>
+
+	<br>
+
+	<%= link_to 'Create New Post', new_post_path %>
+
+	</div>
 
 </div>
