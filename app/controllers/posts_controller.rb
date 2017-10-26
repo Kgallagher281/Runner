@@ -5,6 +5,7 @@ class PostsController < ApplicationController
   # GET /posts.json
   def index
     @posts = @current_user ? @current_user.friends_posts : []
+    @races = Race.all
   end
 
   # GET /posts/1
