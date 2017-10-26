@@ -1,6 +1,18 @@
+
 <h1>Editing Post</h1>
+<!-- This is what causes previous posts to be edited -->
+<form action="/posts/<%= @post.id %>" method="POST">
+	<input type="hidden" name="_method" value="PUT"/>
+	<h4> Post Title<br><h2><input type="text" name="post[title]" style="width: 200px"></h2></h4>
 
-<%= render 'form', post: @post %>
+	<h4> Post Body<br><input type="text" name="post[body]" style="width: 500px;height:200px ;"></h4>
+<!-- This allows the Ruby system to accept the new form -->
+<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+<input type="Submit" value="Edit">
+</form>
 
+<br>
 <%= link_to 'Show', @post %> |
 <%= link_to 'Back', posts_path %>
+
+
