@@ -1,0 +1,13 @@
+<div class="login">
+
+	<%= form_for User.new, url: login_path, action: :post do |f| %>
+	<%= f.label :username %>
+	<%= f.text_field :username%>
+	<%= f.label :password %>
+	<%= f.password_field :password %>
+	<%= f.submit "Sign in" %>
+	<% end %>
+
+	<%= link_to 'New User', new_user_path %>
+
+</div>
