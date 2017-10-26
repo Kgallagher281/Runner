@@ -25,9 +25,11 @@ class RacesController < ApplicationController
   # POST /races.json
   def create
     @race = Race.new(race_params)
-
-    respond_to do |format|
-      if @race.save
+    Race.transaction do 
+      @race.save
+      UserRace.create( race_id: @race.id, user_id: @current_user.id)
+        respond_to do |format|
+      if @race.id
         format.html { redirect_to @race, notice: 'Race was successfully created.' }
         format.json { render :show, status: :created, location: @race }
       else
@@ -36,6 +38,7 @@ class RacesController < ApplicationController
       end
     end
   end
+end
 
   # PATCH/PUT /races/1
   # PATCH/PUT /races/1.json
