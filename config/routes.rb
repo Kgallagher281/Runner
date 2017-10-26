@@ -16,6 +16,9 @@ Rails.application.routes.draw do
   # If signup form is filled, handle signup
   post 'signup' => "home#handle_signup"
 
+  # Show user profile when clicked on navbar
+  get '' => "user#show"
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
 
