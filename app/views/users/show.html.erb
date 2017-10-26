@@ -32,10 +32,6 @@
 	  </tbody>
 	</table>
 
-	<br>
-
-	<%= link_to 'New Race', new_race_path %>
-
 	<h2>Your Posts</h2>
 	<img src="http://static.wixstatic.com/media/3cc615_323631ae328f4ea2b8a4d8837f08107d.jpg_256">
 	<table>
@@ -48,15 +44,12 @@
 	        <td><%= post.body %></td>
 	        <% if post.user_id == @current_user.id %>
 	        <td><%= link_to 'Edit', edit_post_path(post) %></td>
+	        <td><%= link_to 'Create New Post', new_post_path %></td>
 	        <% end %>
 	      </tr>
 	    <% end %>
 	  </tbody>
 	</table>
-
-	<br>
-
-	<%= link_to 'Create New Post', new_post_path %>
 
 	</div>
 
