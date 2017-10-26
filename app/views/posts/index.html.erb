@@ -8,9 +8,9 @@
   <% if @current_user %>
 
   <h1>Newsfeed</h1>
-  <% @current_user.friends_posts.each do |post| %>
+  <% @posts.each do |post| %>
 
-
+<!-- displays user name and posts -->
   <p><a href="/users/<%= post.user.id %>">
     <%= post.user.first_name + " " + post.user.last_name %></a></p>
       <strong><%= post.title %></strong>

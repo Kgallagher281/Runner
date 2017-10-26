@@ -3,8 +3,9 @@ class PostsController < ApplicationController
 
   # GET /posts
   # GET /posts.json
+  # This is allowing me to only see posts from my current friends
   def index
-    @posts = @current_user ? @current_user.friends_posts : []
+    @posts = @current_user ? @current_user.friends_posts : [] 
   end
 
   # GET /posts/1
