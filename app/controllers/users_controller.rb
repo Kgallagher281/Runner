@@ -11,7 +11,6 @@ class UsersController < ApplicationController
   # GET /users/1.json
   # Show all of users posts
   def show
-    @posts = Post.all
     @races = @current_user ? @current_user.races : []
   end
 
