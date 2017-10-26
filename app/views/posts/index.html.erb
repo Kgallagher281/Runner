@@ -8,7 +8,7 @@
   <% if @current_user %>
 
   <h1>Newsfeed</h1>
-  <% @current_user.friends_posts.each do |post| %>
+  <% @posts.each do |post| %>
 
 
   <p><a href="/users/<%= post.user.id %>">
