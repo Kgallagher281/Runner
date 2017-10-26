@@ -14,4 +14,11 @@ class HomeController < ApplicationController
       redirect_to :root
     end
   end
+
+  # Handle logout, go to login page
+  def handle_logout
+	session[:user_id] = nil
+	redirect_to :root
+  end
+
 end
