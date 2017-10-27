@@ -1,6 +1,7 @@
 class RacesController < ApplicationController
   before_action :set_race, only: [:show, :edit, :update, :destroy]
 
+
   # GET /races/1
   def show
   end
@@ -52,7 +53,7 @@ end
       @race.destroy
     end
     respond_to do |format|
-      format.html { redirect_to races_url, notice: 'Race was successfully destroyed.' }
+      format.html { redirect_back fallback_location: :root, notice: 'Race was successfully destroyed.' }
       format.json { head :no_content }
     end
   end

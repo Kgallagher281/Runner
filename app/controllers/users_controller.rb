@@ -11,7 +11,7 @@ class UsersController < ApplicationController
   def show
     @races = @current_user ? @current_user.races : []
     @distance = Distance.find_by(id: @current_user.distance_id)
-  
+
   end
 
   def search
