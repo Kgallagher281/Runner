@@ -41,6 +41,22 @@ a:hover {
   width: 975px;
   height: 300px; }
 
+.search-page {
+  padding: 50px 0; }
+  .search-page .search-results {
+    border: orange solid;
+    background-color: #fddea6;
+    padding: 20px 100px;
+    padding-bottom: 50px;
+    width: 760px; }
+    .search-page .search-results ul {
+      padding-left: 0; }
+      .search-page .search-results ul li {
+        list-style-type: none; }
+
+td {
+  vertical-align: text-top; }
+
 .login {
   background-color: #fddea6;
   border: orange solid;
