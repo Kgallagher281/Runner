@@ -511,6 +511,12 @@
 		"oAP": "\/app\/views\/races\/edit.html.erb",
 		"oF": 0
 		},
+	"\/app\/views\/races\/new.html.erb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/views\/races\/new.html.erb",
+		"oF": 0
+		},
 	"\/app\/views\/races\/show.html.erb": {
 		"ft": 8192,
 		"oA": 2,
@@ -551,6 +557,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/app\/views\/users\/search.html.erb",
+		"oF": 0
+		},
+	"\/app\/views\/users\/show.html.erb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/views\/users\/show.html.erb",
 		"oF": 0
 		},
 	"\/app\/views\/users\/show.json.jbuilder": {
@@ -982,6 +994,12 @@
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171026-89954-jobnjc",
 		"oF": 0
 		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171027-1304-7vc4ra": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171027-1304-7vc4ra",
+		"oF": 0
+		},
 	"\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171027-92286-ig8kvq": {
 		"ft": 8192,
 		"oA": 2,
@@ -1108,6 +1126,12 @@
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171026-89954-fk7ty6",
 		"oF": 0
 		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171027-1304-njat2r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171027-1304-njat2r",
+		"oF": 0
+		},
 	"\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171027-92286-19ratvc": {
 		"ft": 8192,
 		"oA": 2,
@@ -1162,6 +1186,17 @@
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171027-95585-ar7yz7",
 		"oF": 0
 		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/medium\/logo.png": {
+		"ft": 32768,
+		"iS": 30569,
+		"oA": 0,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/medium\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171026-84686-1syw426": {
 		"ft": 8192,
 		"oA": 2,
@@ -1198,11 +1233,16 @@
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171027-92286-1qx45vu",
 		"oF": 0
 		},
-	"\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171027-95585-1r8nak8": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171027-95585-1r8nak8",
-		"oF": 0
+	"\/public\/system\/users\/photos\/000\/000\/003\/original\/logo.png": {
+		"ft": 32768,
+		"iS": 135594,
+		"oA": 0,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/original\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171026-84686-1syw426": {
 		"ft": 8192,
@@ -1234,17 +1274,28 @@
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171026-89954-17n34s1",
 		"oF": 0
 		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171027-1304-8oufvb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171027-1304-8oufvb",
+		"oF": 0
+		},
 	"\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171027-92286-1qx45vu": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171027-92286-1qx45vu",
 		"oF": 0
 		},
-	"\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171027-95585-1r8nak8": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171027-95585-1r8nak8",
-		"oF": 0
+	"\/public\/system\/users\/photos\/000\/000\/003\/thumb\/logo.png": {
+		"ft": 32768,
+		"iS": 3343,
+		"oA": 0,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/thumb\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171026-84686-1syw426": {
 		"ft": 8192,
@@ -1280,12 +1331,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171027-92286-1qx45vu",
-		"oF": 0
-		},
-	"\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171027-95585-1r8nak8": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171027-95585-1r8nak8",
 		"oF": 0
 		},
 	"\/public\/system\/users\/photos\/000\/000\/004\/medium\/Screen_Shot_2017-10-23_at_11.48.23_PM.png": {

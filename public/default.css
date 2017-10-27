@@ -54,6 +54,24 @@ a:hover {
       .search-page .search-results ul li {
         list-style-type: none; }
 
+.form {
+  padding: 50px 0; }
+  .form .form-table {
+    border: orange solid;
+    background-color: #fddea6;
+    padding: 20px 100px;
+    padding-bottom: 50px;
+    width: 760px; }
+
+.race-page {
+  padding: 50px 0; }
+  .race-page .race {
+    border: orange solid;
+    background-color: #fddea6;
+    padding: 20px 100px;
+    padding-bottom: 50px;
+    width: 760px; }
+
 .table-align td {
   vertical-align: text-top; }
 
