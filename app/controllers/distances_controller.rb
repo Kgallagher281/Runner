@@ -1,24 +1,10 @@
 class DistancesController < ApplicationController
   before_action :set_distance, only: [:show, :edit, :update, :destroy]
 
-  # GET /distances
-  # GET /distances.json
-  def index
-    @distances = Distance.all
-  end
-
   # GET /distances/1
-  # GET /distances/1.json
   def show
-  end
-
-  # GET /distances/new
-  def new
-    @distance = Distance.new
-  end
-
-  # GET /distances/1/edit
-  def edit
+    @users = User.where( distance_id: @distance.id)
+    @distance = Distance.find_by(id: @current_user.distance_id)
   end
 
   # POST /distances

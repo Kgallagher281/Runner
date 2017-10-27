@@ -2,7 +2,6 @@ class RacesController < ApplicationController
   before_action :set_race, only: [:show, :edit, :update, :destroy]
 
   # GET /races/1
-  # GET /races/1.json
   def show
   end
 
@@ -16,7 +15,6 @@ class RacesController < ApplicationController
   end
 
   # POST /races
-  # POST /races.json
   def create
     @race = Race.new(race_params)
     Race.transaction do 
@@ -35,7 +33,6 @@ class RacesController < ApplicationController
 end
 
   # PATCH/PUT /races/1
-  # PATCH/PUT /races/1.json
   def update
     respond_to do |format|
       if @race.update(race_params)
@@ -49,7 +46,6 @@ end
   end
 
   # DELETE /races/1
-  # DELETE /races/1.json
   def destroy
     Race.transaction do
       @race.user_races.destroy_all

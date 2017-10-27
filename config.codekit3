@@ -403,6 +403,12 @@
 		"oAP": "\/app\/models\/user_race.rb",
 		"oF": 0
 		},
+	"\/app\/views\/distances\/show.html.erb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/views\/distances\/show.html.erb",
+		"oF": 0
+		},
 	"\/app\/views\/home\/_header.html.erb": {
 		"ft": 8192,
 		"oA": 1,
@@ -877,6 +883,26 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/public\/cam.jpg": {
+		"ft": 16384,
+		"iS": 196538,
+		"oA": 0,
+		"oAP": "\/public\/cam.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/christy.jpg": {
+		"ft": 16384,
+		"iS": 7684,
+		"oA": 0,
+		"oAP": "\/public\/christy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/public\/default.css": {
 		"aP": 1,
 		"bl": 0,
@@ -922,6 +948,16 @@
 		"oAP": "\/public\/robots.txt",
 		"oF": 0
 		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/medium\/christy.jpg": {
+		"ft": 16384,
+		"iS": 7340,
+		"oA": 0,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/medium\/christy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171026-84686-jqubph": {
 		"ft": 8192,
 		"oA": 2,
@@ -952,6 +988,18 @@
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171026-89954-jobnjc",
 		"oF": 0
 		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171027-1569-1t2mgk1": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171027-1569-1t2mgk1",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171027-3308-wxie9a": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171027-3308-wxie9a",
+		"oF": 0
+		},
 	"\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171027-92286-ig8kvq": {
 		"ft": 8192,
 		"oA": 2,
@@ -963,6 +1011,16 @@
 		"oA": 2,
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171027-95585-nz5g4b",
 		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/original\/christy.jpg": {
+		"ft": 16384,
+		"iS": 7684,
+		"oA": 0,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/original\/christy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171026-84686-jqubph": {
 		"ft": 8192,
@@ -1000,6 +1058,18 @@
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171027-1304-7vc4ra",
 		"oF": 0
 		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171027-1569-1t2mgk1": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171027-1569-1t2mgk1",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171027-3308-wxie9a": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171027-3308-wxie9a",
+		"oF": 0
+		},
 	"\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171027-92286-ig8kvq": {
 		"ft": 8192,
 		"oA": 2,
@@ -1011,6 +1081,16 @@
 		"oA": 2,
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171027-95585-nz5g4b",
 		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/thumb\/christy.jpg": {
+		"ft": 16384,
+		"iS": 1197,
+		"oA": 0,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/thumb\/christy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171026-84686-jqubph": {
 		"ft": 8192,
@@ -1040,6 +1120,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171026-89954-jobnjc",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171027-1569-1t2mgk1": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171027-1569-1t2mgk1",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171027-3308-wxie9a": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171027-3308-wxie9a",
 		"oF": 0
 		},
 	"\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171027-92286-ig8kvq": {
@@ -1082,6 +1174,24 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171026-89954-fk7ty6",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171027-1569-1cq751o": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171027-1569-1cq751o",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171027-3308-106dixu": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171027-3308-106dixu",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171027-3689-1pg4lb3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171027-3689-1pg4lb3",
 		"oF": 0
 		},
 	"\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171027-92286-19ratvc": {
@@ -1132,6 +1242,24 @@
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171027-1304-njat2r",
 		"oF": 0
 		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171027-1569-1cq751o": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171027-1569-1cq751o",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171027-3308-106dixu": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171027-3308-106dixu",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171027-3689-1pg4lb3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171027-3689-1pg4lb3",
+		"oF": 0
+		},
 	"\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171027-92286-19ratvc": {
 		"ft": 8192,
 		"oA": 2,
@@ -1172,6 +1300,24 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171026-89954-fk7ty6",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171027-1569-1cq751o": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171027-1569-1cq751o",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171027-3308-106dixu": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171027-3308-106dixu",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171027-3689-1pg4lb3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171027-3689-1pg4lb3",
 		"oF": 0
 		},
 	"\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171027-92286-19ratvc": {
@@ -1227,6 +1373,24 @@
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171026-89954-17n34s1",
 		"oF": 0
 		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171027-1569-s76bjr": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171027-1569-s76bjr",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171027-3308-yzl9vn": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171027-3308-yzl9vn",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171027-3689-6qntf5": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171027-3689-6qntf5",
+		"oF": 0
+		},
 	"\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171027-92286-1qx45vu": {
 		"ft": 8192,
 		"oA": 2,
@@ -1280,6 +1444,24 @@
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171027-1304-8oufvb",
 		"oF": 0
 		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171027-1569-s76bjr": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171027-1569-s76bjr",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171027-3308-yzl9vn": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171027-3308-yzl9vn",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171027-3689-6qntf5": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171027-3689-6qntf5",
+		"oF": 0
+		},
 	"\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171027-92286-1qx45vu": {
 		"ft": 8192,
 		"oA": 2,
@@ -1327,10 +1509,40 @@
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171026-89954-17n34s1",
 		"oF": 0
 		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171027-1569-s76bjr": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171027-1569-s76bjr",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171027-3308-yzl9vn": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171027-3308-yzl9vn",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171027-3689-6qntf5": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171027-3689-6qntf5",
+		"oF": 0
+		},
 	"\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171027-92286-1qx45vu": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171027-92286-1qx45vu",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/004\/medium\/open-uri20171027-3308-123e8ee": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/004\/medium\/open-uri20171027-3308-123e8ee",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/004\/medium\/open-uri20171027-3689-13tw6l9": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/004\/medium\/open-uri20171027-3689-13tw6l9",
 		"oF": 0
 		},
 	"\/public\/system\/users\/photos\/000\/000\/004\/medium\/Screen_Shot_2017-10-23_at_11.48.23_PM.png": {
@@ -1344,6 +1556,18 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/public\/system\/users\/photos\/000\/000\/004\/original\/open-uri20171027-3308-123e8ee": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/004\/original\/open-uri20171027-3308-123e8ee",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/004\/original\/open-uri20171027-3689-13tw6l9": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/004\/original\/open-uri20171027-3689-13tw6l9",
+		"oF": 0
+		},
 	"\/public\/system\/users\/photos\/000\/000\/004\/original\/Screen_Shot_2017-10-23_at_11.48.23_PM.png": {
 		"ft": 32768,
 		"iS": 147695,
@@ -1354,6 +1578,18 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/public\/system\/users\/photos\/000\/000\/004\/thumb\/open-uri20171027-3308-123e8ee": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/004\/thumb\/open-uri20171027-3308-123e8ee",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/004\/thumb\/open-uri20171027-3689-13tw6l9": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/004\/thumb\/open-uri20171027-3689-13tw6l9",
+		"oF": 0
 		},
 	"\/public\/system\/users\/photos\/000\/000\/004\/thumb\/Screen_Shot_2017-10-23_at_11.48.23_PM.png": {
 		"ft": 32768,
@@ -1366,6 +1602,18 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/public\/system\/users\/photos\/000\/000\/005\/medium\/open-uri20171027-3308-1e7e5d3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/005\/medium\/open-uri20171027-3308-1e7e5d3",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/005\/medium\/open-uri20171027-3689-12p4ex5": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/005\/medium\/open-uri20171027-3689-12p4ex5",
+		"oF": 0
+		},
 	"\/public\/system\/users\/photos\/000\/000\/005\/medium\/Screen_Shot_2017-10-23_at_11.48.23_PM.png": {
 		"ft": 32768,
 		"iS": 28301,
@@ -1377,6 +1625,18 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/public\/system\/users\/photos\/000\/000\/005\/original\/open-uri20171027-3308-1e7e5d3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/005\/original\/open-uri20171027-3308-1e7e5d3",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/005\/original\/open-uri20171027-3689-12p4ex5": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/005\/original\/open-uri20171027-3689-12p4ex5",
+		"oF": 0
+		},
 	"\/public\/system\/users\/photos\/000\/000\/005\/original\/Screen_Shot_2017-10-23_at_11.48.23_PM.png": {
 		"ft": 32768,
 		"iS": 147695,
@@ -1387,6 +1647,18 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/public\/system\/users\/photos\/000\/000\/005\/thumb\/open-uri20171027-3308-1e7e5d3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/005\/thumb\/open-uri20171027-3308-1e7e5d3",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/005\/thumb\/open-uri20171027-3689-12p4ex5": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/005\/thumb\/open-uri20171027-3689-12p4ex5",
+		"oF": 0
 		},
 	"\/public\/system\/users\/photos\/000\/000\/005\/thumb\/Screen_Shot_2017-10-23_at_11.48.23_PM.png": {
 		"ft": 32768,
@@ -1496,6 +1768,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/public\/teddy.jpg": {
+		"ft": 16384,
+		"iS": 13108,
+		"oA": 0,
+		"oAP": "\/public\/teddy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/Rakefile": {

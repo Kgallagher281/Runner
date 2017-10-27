@@ -3,6 +3,7 @@
 	<ul>
 		<li><%= link_to 'Home', posts_path %></li>
 		<li><%= link_to 'Profile', user_path(@current_user) %></li>
+		<li><%= link_to 'Running Group', distance_path(@current_user) %></li>
 		<li><%= link_to 'Logout', :logout %></li>
 		<li style="background-color: white; padding: 0; margin: 0;"><%= render 'home/searchbar' %></li>
 	</ul>
