@@ -25,6 +25,8 @@
         </tr>
     </table>
         <%= post.body %>
+        <p><%=post.created_at.strftime("%a %b %e, %Y %I:%M %p") %></p>
+
   </div>
   <br>
   <% end %>
@@ -39,7 +41,7 @@
       <tbody>
         <% @races.each do |race| %>
           <tr>
-            <td><%= race.date.strftime("%B %d") %></td>
+            <td><%= race.date.strftime("%B %d, %Y") %></td>
             <td><%= link_to race.name, race %></td>
           </tr>
         <% end %>

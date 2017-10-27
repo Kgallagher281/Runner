@@ -51,7 +51,8 @@
 	    <% @user.posts.each do |post| %>
 	      <tr>
 	      	<td class="delete-button"><%= link_to 'x', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-	        <td style="font-size: 1.05em; font-weight: bold;"><%= link_to post.title, post %></td>
+	        <td style="font-size: 1.05em; font-weight: bold;"><%= link_to post.title, post %><br><%=post.created_at.strftime("%a %b %e, %Y %I:%M %p") %>
+</td>
 	        <td style="width: 505px;"><%= post.body %></td>
 	        <% if post.user_id == @current_user.id %>
 	        <td><%= link_to 'Edit', edit_post_path(post) %></td>
