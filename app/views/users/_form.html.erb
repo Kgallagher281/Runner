@@ -13,6 +13,8 @@
       </div>
     <% end %>
 
+    <h1>Sign Up</h1>
+
     <div class="field">
       <%= form.label :photo %>
       <%= form.file_field :photo, id: :user_photo %>
@@ -40,8 +42,8 @@
 
 <!--This is the group drop down selection  -->
     <div class="field">
-      <%= form.label :group %>
-      <%= form.select :group, ['5K', '10K', 'Half-Marathon','Marathon'] %>
+      <%= form.label :distance_id %>
+      <%= form.select :distance_id, [['5K', 1], ['10K', 2], ['Half-Marathon', 3], ['Marathon', 4]] %>
     </div>
 
     <div class="actions">

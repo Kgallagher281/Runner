@@ -33,7 +33,7 @@ User.create!([
 		username: "ckusuma",
 		password: "1",
 		distance_id: 1,
-		photo: open('http://static.wixstatic.com/media/3cc615_323631ae328f4ea2b8a4d8837f08107d.jpg_256')
+		photo: File.new('public/christy.jpg')
 	},
 	{
 		id: 2,
@@ -49,8 +49,26 @@ User.create!([
 		first_name: "Cam",
 		last_name: "Crews",
 		username: "ccrews",
-		password: "3",
-		distance_id: 3,
+		password: "1",
+		distance_id: 2,
+		photo: File.new('public/cam.jpg')
+	},
+	{
+		id: 4,
+		first_name: "Teddy",
+		last_name: "Bear",
+		username: "tbear",
+		password: "1",
+		distance_id: 2,
+		photo: File.new('public/teddy.jpg')
+	},
+	{
+		id: 5,
+		first_name: "Ali",
+		last_name: "Gator",
+		username: "agator",
+		password: "1",
+		distance_id: 1,
 		photo: open('http://static.wixstatic.com/media/3cc615_323631ae328f4ea2b8a4d8837f08107d.jpg_256')
 	}
 ])
@@ -58,26 +76,50 @@ User.create!([
 Race.create!([
 	{
 		id: 1,
-		name: "New York 5K Race",
-		date: '2009-06-15T13:45:30',
+		name: "Central Park Fun Run",
+		date: '2017-12-15T06:00:00',
 		details: "Race details 1",
-		address: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		address: "New York, New York",
 		distance: '5K'
 	},
 	{
 		id: 2,
-		name: "New York 10K Race",
-		date: '2009-06-15T13:45:30',
-		details: "Race details 2",
-		address: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		distance: '10K'
+		name: "Goblin Gallop 5K",
+		date: '2017-11-15T06:30:00',
+		details: "Race details 1",
+		address: "Bronx, New York",
+		distance: '5K'
 	},
 	{
 		id: 3,
+		name: "Hamilton Heights Halloween 5K",
+		date: '2017-11-15T07:45:00',
+		details: "Race details 1",
+		address: "Brooklyn, New York",
+		distance: '5K'
+	},
+	{
+		id: 4,
+		name: "Little Falls 10K for Kidneys",
+		date: '2017-11-20T08:45:00',
+		details: "Race details 2",
+		address: "Manhattan, New York",
+		distance: '10K'
+	},
+	{
+		id: 5,
 		name: "Rock 'n Roll Half Marathon",
-		date: '2009-06-15T13:45:30',
+		date: '2017-11-23T09:00:00',
 		details: "Race details 3",
-		address: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		address: "Jersey City, New Jersey",
+		distance: 'Half Marathon'
+	},
+	{
+		id: 6,
+		name: "Queens Half Marathon",
+		date: '2017-10-14T09:00:00',
+		details: "Race details 3",
+		address: "Queens, New York",
 		distance: 'Half Marathon'
 	}
 ])
@@ -85,31 +127,31 @@ Race.create!([
 Post.create!([
 	{
 		id: 1,
-		title: "Christy's post 1",
+		title: "Carb-loading",
 		body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin justo ante, convallis ut auctor eget, molestie et elit. Nam ex sapien, faucibus nec feugiat ut, convallis eu nulla. Maecenas semper eget purus faucibus semper. Donec scelerisque venenatis neque fermentum suscipit. Aenean nisi sem, finibus ut semper vel, fermentum cursus ipsum. Donec mauris diam, dictum sed ornare sed, bibendum malesuada massa. Sed quis elit ipsum.",
 		user_id: 1
 	},
 	{
 		id: 2,
-		title: "Kevin's post 1",
+		title: "Pretty Medals",
 		body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed eros vitae nibh facilisis malesuada. Sed lorem dolor, malesuada ornare nibh at, ultricies faucibus eros. Praesent felis odio, finibus ac ipsum in, maximus pulvinar dolor. Nunc a elit in lorem pulvinar elementum. Phasellus interdum non lectus nec ultricies. Nulla finibus arcu sit amet neque rhoncus faucibus. Nulla tincidunt viverra tortor, in dictum tellus. Vestibulum pulvinar elementum facilisis. In auctor mollis lacus vitae gravida. Maecenas sit amet tortor purus. Maecenas pulvinar porttitor mattis.",
 		user_id: 2
 	},
 	{
 		id: 3,
-		title: "Christy's post 2",
+		title: "Rainy Weather",
 		body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed eros vitae nibh facilisis malesuada. Sed lorem dolor, malesuada ornare nibh at, ultricies faucibus eros. Praesent felis odio, finibus ac ipsum in, maximus pulvinar dolor. Nunc a elit in lorem pulvinar elementum. Phasellus interdum non lectus nec ultricies. Nulla finibus arcu sit amet neque rhoncus faucibus. Nulla tincidunt viverra tortor, in dictum tellus. Vestibulum pulvinar elementum facilisis. In auctor mollis lacus vitae gravida. Maecenas sit amet tortor purus. Maecenas pulvinar porttitor mattis.",
 		user_id: 1
 	},
 	{
 		id: 4,
-		title: "Kevin's post 2",
+		title: "New Shoes",
 		body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed eros vitae nibh facilisis malesuada. Sed lorem dolor, malesuada ornare nibh at, ultricies faucibus eros. Praesent felis odio, finibus ac ipsum in, maximus pulvinar dolor. Nunc a elit in lorem pulvinar elementum. Phasellus interdum non lectus nec ultricies. Nulla finibus arcu sit amet neque rhoncus faucibus. Nulla tincidunt viverra tortor, in dictum tellus. Vestibulum pulvinar elementum facilisis. In auctor mollis lacus vitae gravida. Maecenas sit amet tortor purus. Maecenas pulvinar porttitor mattis.",
 		user_id: 2
 	},
 	{
 		id: 5,
-		title: "Kevin's post 3",
+		title: "Nike Running Groups",
 		body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed eros vitae nibh facilisis malesuada. Sed lorem dolor, malesuada ornare nibh at, ultricies faucibus eros. Praesent felis odio, finibus ac ipsum in, maximus pulvinar dolor. Nunc a elit in lorem pulvinar elementum. Phasellus interdum non lectus nec ultricies. Nulla finibus arcu sit amet neque rhoncus faucibus. Nulla tincidunt viverra tortor, in dictum tellus. Vestibulum pulvinar elementum facilisis. In auctor mollis lacus vitae gravida. Maecenas sit amet tortor purus. Maecenas pulvinar porttitor mattis.",
 		user_id: 2
 	}
@@ -125,6 +167,11 @@ Friendship.create!([
 		id: 2,
 		user_id: 2,
 		friend_id: 1
+	},
+	{
+		id: 3,
+		user_id: 1,
+		friend_id: 3
 	}
 ])
 
@@ -138,6 +185,26 @@ UserRace.create!([
 		id: 2,
 		user_id: 2,
 		race_id: 2
+	},
+	{
+		id: 3,
+		user_id: 1,
+		race_id: 3
+	},
+	{
+		id: 4,
+		user_id: 2,
+		race_id: 4
+	},
+	{
+		id: 5,
+		user_id: 1,
+		race_id: 5
+	},
+	{
+		id: 6,
+		user_id: 1,
+		race_id: 6
 	},
 ])
 
