@@ -511,12 +511,6 @@
 		"oAP": "\/app\/views\/races\/edit.html.erb",
 		"oF": 0
 		},
-	"\/app\/views\/races\/new.html.erb": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/app\/views\/races\/new.html.erb",
-		"oF": 0
-		},
 	"\/app\/views\/races\/show.html.erb": {
 		"ft": 8192,
 		"oA": 2,
@@ -557,12 +551,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/app\/views\/users\/search.html.erb",
-		"oF": 0
-		},
-	"\/app\/views\/users\/show.html.erb": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/app\/views\/users\/show.html.erb",
 		"oF": 0
 		},
 	"\/app\/views\/users\/show.json.jbuilder": {
