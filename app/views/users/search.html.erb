@@ -14,7 +14,9 @@
 	          <td>
 	          <a style="font-size: 1.05em;" href="/users/<%= user.id %>">
 	            <%= user.full_name %><br>
-	            <%= link_to 'Add friend', friendship_path(friend_id: user.id), method: :post, data: { confirm: 'Are you sure?' } %>
+
+				  <%= link_to( "Add friend", friendship_path(friend_id: user.id)) unless @current_user.is_friend?(user) %>
+
 	          </a>
 	          </td>
 	        </tr>
