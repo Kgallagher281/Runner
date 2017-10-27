@@ -1,7 +1,21 @@
 
 // All pages
 
+a {
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+	background-color: orange;
+	color: white;
+}
+
 .navbar {
+	float: left;
+	padding-top: -500px;
 	ul {
 		margin: 0;
 		padding: 0;
@@ -13,18 +27,103 @@
 		background-color: orange;
 		text-align: right;
 	}
+	a {
+		text-decoration: none;
+		background-color: orange;
+	}
+	a:visited {
+		color: black;
+	}
+	a:hover {
+		background-color: clear;
+		color: white;
+	}
 }
 
-.home-page, .profile-page {
+.searchbar {
+	.search-bar {
+		margin-left: 242px;
+		height: 17px;
+	}
+}
+
+.profile-page {
 	padding: 40px;
+}
+
+.header img {
+	width: 975px;
+	height: 300px;
+}
+
+// Login page
+
+.login {
+	background-color: #fddea6;
+	border: orange solid;
+	padding: 100px 30%;
+	margin: auto 100px;
 }
 
 // Home page
 
 .home-page {
-	background-color: lightblue;
+	width: 1000px;
+}
+
+.all-posts {
+	float: left;
+	width: 60%;
+	background-color: white;
+	margin-right: 20px;
+	a:hover {
+		background-color: clear;
+		color: black;
+	}
+	div {
+		border: orange solid;
+		background-color: #fddea6;
+		padding: 20px;
+	}
+}
+
+.all-races {
+	float: left;
+	width: 31.5%;
+	background-color: orange;
+	height: 400px;
+	padding-left: 30px;
+	h2 {
+		padding-top: 15px;
+	}
 }
 
 // Profile page
+.profile-page {
+	padding: 50px 0;
+	.profile {
+		border: orange solid;
+		background-color: #fddea6;
+		padding: 20px 100px;
+		padding-bottom: 50px;
+		width: 760px;
+	}
+}
 
-// Forms
+// One post page
+.show-post {
+	padding: 50px 0;
+	p {
+		font-size: 1.2em;
+	}
+	.post {
+		border: orange solid;
+		background-color: #fddea6;
+		padding: 20px 100px;
+		padding-bottom: 50px;
+		width: 760px;
+	}
+}
+
+
+

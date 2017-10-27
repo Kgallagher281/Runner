@@ -1,3 +1,5 @@
+
+<%= render 'home/header' %>
 <%= render 'home/navbar' %>
 
 <div class="home-page" class="page">
@@ -8,16 +10,24 @@
   <% if @current_user %>
 
   <div class="all-posts">
-    <h1>Newsfeed</h1>
+
     <% @posts.each do |post| %>
-
-
-    <p><a href="/users/<%= post.user.id %>">
-      <%= post.user.first_name + " " + post.user.last_name %></a></p>
-        <strong><%= link_to post.title, post %></strong>
-        <br>
+  <div>
+    <table>
+        <tr>
+          <td><%= image_tag post.user.photo.url(:thumb) %></td>
+          <td>
+          <strong style="font-size: 1.25em;"><%= link_to post.title, post %></strong><br>
+          <a style="font-size: 1.05em;" href="/users/<%= post.user.id %>">
+            <%= post.user.first_name + " " + post.user.last_name %>
+          </a>
+          </td>
+        </tr>
+    </table>
         <%= post.body %>
-    <% end %>
+  </div>
+  <br>
+  <% end %>
 
   </div>
 
@@ -29,13 +39,8 @@
       <tbody>
         <% @races.each do |race| %>
           <tr>
-            <td><%= link_to 'x', race, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-            <td><%= race.date %></td>
-            <td><%= race.address %></td>
+            <td><%= race.date.strftime("%B %d") %></td>
             <td><%= link_to race.name, race %></td>
-            <td><%= race.details %></td>
-            <td><%= race.distance %></td>
-            <td><%= link_to 'Edit', edit_race_path(race) %></td>
           </tr>
         <% end %>
       </tbody>

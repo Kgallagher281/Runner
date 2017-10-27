@@ -403,6 +403,12 @@
 		"oAP": "\/app\/models\/user_race.rb",
 		"oF": 0
 		},
+	"\/app\/views\/home\/_header.html.erb": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/app\/views\/home\/_header.html.erb",
+		"oF": 0
+		},
 	"\/app\/views\/home\/_login.html.erb": {
 		"ft": 8192,
 		"oA": 1,
@@ -793,12 +799,6 @@
 		"oAP": "\/db\/seeds.rb",
 		"oF": 0
 		},
-	"\/db\/test.sqlite3": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/db\/test.sqlite3",
-		"oF": 0
-		},
 	"\/Gemfile": {
 		"ft": 8192,
 		"oA": 2,
@@ -906,6 +906,16 @@
 		"oAP": "\/public\/favicon.ico",
 		"oF": 0
 		},
+	"\/public\/Rakefile.jpg": {
+		"ft": 16384,
+		"iS": 61320,
+		"oA": 0,
+		"oAP": "\/public\/Rakefile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/public\/robots.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -918,10 +928,82 @@
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171026-84686-jqubph",
 		"oF": 0
 		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171026-86118-1xy9b48": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171026-86118-1xy9b48",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171026-86261-i5r3ur": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171026-86261-i5r3ur",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171026-86925-10o40fx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171026-86925-10o40fx",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171026-89954-jobnjc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171026-89954-jobnjc",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171027-92286-ig8kvq": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171027-92286-ig8kvq",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171027-95585-nz5g4b": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/medium\/open-uri20171027-95585-nz5g4b",
+		"oF": 0
+		},
 	"\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171026-84686-jqubph": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171026-84686-jqubph",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171026-86118-1xy9b48": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171026-86118-1xy9b48",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171026-86261-i5r3ur": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171026-86261-i5r3ur",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171026-86925-10o40fx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171026-86925-10o40fx",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171026-89954-jobnjc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171026-89954-jobnjc",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171027-92286-ig8kvq": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171027-92286-ig8kvq",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171027-95585-nz5g4b": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/original\/open-uri20171027-95585-nz5g4b",
 		"oF": 0
 		},
 	"\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171026-84686-jqubph": {
@@ -930,10 +1012,82 @@
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171026-84686-jqubph",
 		"oF": 0
 		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171026-86118-1xy9b48": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171026-86118-1xy9b48",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171026-86261-i5r3ur": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171026-86261-i5r3ur",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171026-86925-10o40fx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171026-86925-10o40fx",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171026-89954-jobnjc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171026-89954-jobnjc",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171027-92286-ig8kvq": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171027-92286-ig8kvq",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171027-95585-nz5g4b": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/001\/thumb\/open-uri20171027-95585-nz5g4b",
+		"oF": 0
+		},
 	"\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171026-84686-z2ycyb": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171026-84686-z2ycyb",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171026-86118-yxez64": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171026-86118-yxez64",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171026-86261-ot2hz7": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171026-86261-ot2hz7",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171026-86925-19o2at4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171026-86925-19o2at4",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171026-89954-fk7ty6": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171026-89954-fk7ty6",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171027-92286-19ratvc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171027-92286-19ratvc",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171027-95585-ar7yz7": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/medium\/open-uri20171027-95585-ar7yz7",
 		"oF": 0
 		},
 	"\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171026-84686-z2ycyb": {
@@ -942,10 +1096,82 @@
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171026-84686-z2ycyb",
 		"oF": 0
 		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171026-86118-yxez64": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171026-86118-yxez64",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171026-86261-ot2hz7": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171026-86261-ot2hz7",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171026-86925-19o2at4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171026-86925-19o2at4",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171026-89954-fk7ty6": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171026-89954-fk7ty6",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171027-92286-19ratvc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171027-92286-19ratvc",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171027-95585-ar7yz7": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/original\/open-uri20171027-95585-ar7yz7",
+		"oF": 0
+		},
 	"\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171026-84686-z2ycyb": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171026-84686-z2ycyb",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171026-86118-yxez64": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171026-86118-yxez64",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171026-86261-ot2hz7": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171026-86261-ot2hz7",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171026-86925-19o2at4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171026-86925-19o2at4",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171026-89954-fk7ty6": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171026-89954-fk7ty6",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171027-92286-19ratvc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171027-92286-19ratvc",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171027-95585-ar7yz7": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/002\/thumb\/open-uri20171027-95585-ar7yz7",
 		"oF": 0
 		},
 	"\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171026-84686-1syw426": {
@@ -954,16 +1180,124 @@
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171026-84686-1syw426",
 		"oF": 0
 		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171026-86118-1qyvp69": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171026-86118-1qyvp69",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171026-86261-t0oy5y": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171026-86261-t0oy5y",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171026-86925-8j1qy3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171026-86925-8j1qy3",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171026-89954-17n34s1": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171026-89954-17n34s1",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171027-92286-1qx45vu": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171027-92286-1qx45vu",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171027-95585-1r8nak8": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/medium\/open-uri20171027-95585-1r8nak8",
+		"oF": 0
+		},
 	"\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171026-84686-1syw426": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171026-84686-1syw426",
 		"oF": 0
 		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171026-86118-1qyvp69": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171026-86118-1qyvp69",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171026-86261-t0oy5y": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171026-86261-t0oy5y",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171026-86925-8j1qy3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171026-86925-8j1qy3",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171026-89954-17n34s1": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171026-89954-17n34s1",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171027-92286-1qx45vu": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171027-92286-1qx45vu",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171027-95585-1r8nak8": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/original\/open-uri20171027-95585-1r8nak8",
+		"oF": 0
+		},
 	"\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171026-84686-1syw426": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171026-84686-1syw426",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171026-86118-1qyvp69": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171026-86118-1qyvp69",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171026-86261-t0oy5y": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171026-86261-t0oy5y",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171026-86925-8j1qy3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171026-86925-8j1qy3",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171026-89954-17n34s1": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171026-89954-17n34s1",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171027-92286-1qx45vu": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171027-92286-1qx45vu",
+		"oF": 0
+		},
+	"\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171027-95585-1r8nak8": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/system\/users\/photos\/000\/000\/003\/thumb\/open-uri20171027-95585-1r8nak8",
 		"oF": 0
 		},
 	"\/public\/system\/users\/photos\/000\/000\/004\/medium\/Screen_Shot_2017-10-23_at_11.48.23_PM.png": {
