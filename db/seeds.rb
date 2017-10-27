@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Distance.create([
+Distance.create!([
 	{
 		id: 1,
 		description: '5K'
@@ -25,7 +25,7 @@ Distance.create([
 	}
 ])
 
-User.create([
+User.create!([
 	{
 		id: 1,
 		first_name: "Christy",
@@ -55,7 +55,7 @@ User.create([
 	}
 ])
 
-Race.create([
+Race.create!([
 	{
 		id: 1,
 		name: "New York 5K Race",
@@ -82,7 +82,7 @@ Race.create([
 	}
 ])
 
-Post.create([
+Post.create!([
 	{
 		id: 1,
 		title: "Christy's post 1",
@@ -115,7 +115,7 @@ Post.create([
 	}
 ])
 
-Friendship.create([
+Friendship.create!([
 	{
 		id: 1,
 		user_id: 1,
@@ -128,7 +128,7 @@ Friendship.create([
 	}
 ])
 
-UserRace.create([
+UserRace.create!([
 	{
 		id: 1,
 		user_id: 1,

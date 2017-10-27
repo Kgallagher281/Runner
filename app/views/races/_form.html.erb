@@ -34,7 +34,7 @@
 
     <div class="field">
       <%= form.label :distance %>
-      <%= form.text_field :distance, id: :race_distance %>
+      <%= form.select :distance, ['5K', '10K', 'Half-Marathon','Marathon'] %>
     </div>
 
     <div class="actions">
