@@ -1,12 +1,6 @@
 class RacesController < ApplicationController
   before_action :set_race, only: [:show, :edit, :update, :destroy]
 
-  # GET /races
-  # GET /races.json
-  def index
-    @races = Race.all
-  end
-
   # GET /races/1
   # GET /races/1.json
   def show

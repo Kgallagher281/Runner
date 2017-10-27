@@ -5,7 +5,7 @@ class CreateRaces < ActiveRecord::Migration[5.1]
       t.text :details
       t.datetime :date
       t.string :address
-      t.integer :distance
+      t.string :distance
 
       t.timestamps
     end

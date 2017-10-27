@@ -2,11 +2,19 @@
 
 <div class="profile-page" class="page">
 
-	<p id="notice"><%= notice %></p>
+	<div class="profile">
 
-	<h1><%= @user.first_name %> <%= @user.last_name %></h1>
-
-	<%= image_tag @user.photo.url(:medium) %>
+	<table>
+        <tr>
+        	<td>
+        		<%= image_tag @user.photo.url(:medium) %>
+        	</td>
+        	<td>
+        		<h1><%= @user.first_name %> <%= @user.last_name %></h1>
+        		<h2><%= @distance.description %> </h2>
+        	</td>
+        </tr>
+    </table>
 
 	<%= link_to 'Edit', edit_user_path(@user) %> |
 
@@ -59,4 +67,5 @@
 
 	</div>
 
+</div>
 </div>

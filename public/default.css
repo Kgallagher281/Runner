@@ -1,16 +1,93 @@
-.navbar ul {
-  margin: 0;
-  padding: 0; }
+a {
+  text-decoration: none;
+  color: black; }
 
-.navbar li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 10px 40px;
+a:visited {
+  color: black; }
+
+a:hover {
   background-color: orange;
-  text-align: right; }
+  color: white; }
 
-.home-page, .profile-page {
+.navbar {
+  float: left;
+  padding-top: -500px; }
+  .navbar ul {
+    margin: 0;
+    padding: 0; }
+  .navbar li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: orange;
+    text-align: right; }
+  .navbar a {
+    text-decoration: none;
+    background-color: orange; }
+  .navbar a:visited {
+    color: black; }
+  .navbar a:hover {
+    background-color: clear;
+    color: white; }
+
+.searchbar .search-bar {
+  margin-left: 242px;
+  height: 17px; }
+
+.profile-page {
   padding: 40px; }
 
+.header img {
+  width: 975px;
+  height: 300px; }
+
+.login {
+  background-color: #fddea6;
+  border: orange solid;
+  padding: 100px 30%;
+  margin: auto 100px; }
+
 .home-page {
-  background-color: lightblue; }
+  width: 1000px; }
+
+.all-posts {
+  float: left;
+  width: 60%;
+  background-color: white;
+  margin-right: 20px; }
+  .all-posts a:hover {
+    background-color: clear;
+    color: black; }
+  .all-posts div {
+    border: orange solid;
+    background-color: #fddea6;
+    padding: 20px; }
+
+.all-races {
+  float: left;
+  width: 31.5%;
+  background-color: orange;
+  height: 400px;
+  padding-left: 30px; }
+  .all-races h2 {
+    padding-top: 15px; }
+
+.profile-page {
+  padding: 50px 0; }
+  .profile-page .profile {
+    border: orange solid;
+    background-color: #fddea6;
+    padding: 20px 100px;
+    padding-bottom: 50px;
+    width: 760px; }
+
+.show-post {
+  padding: 50px 0; }
+  .show-post p {
+    font-size: 1.2em; }
+  .show-post .post {
+    border: orange solid;
+    background-color: #fddea6;
+    padding: 20px 100px;
+    padding-bottom: 50px;
+    width: 760px; }

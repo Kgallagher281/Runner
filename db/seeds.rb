@@ -9,19 +9,19 @@
 Distance.create([
 	{
 		id: 1,
-		name: 5,
+		description: '5K'
 	},
 	{
 		id: 2,
-		name: 10,
+		description: '10K'
 	},
 	{
 		id: 3,
-		name: 21,
+		description: 'Half Marathon'
 	},
 	{
 		id: 4,
-		name: 42,
+		description: 'Marathon'
 	}
 ])
 
@@ -46,9 +46,9 @@ User.create([
 	},
 	{
 		id: 3,
-		first_name: "Best",
-		last_name: "Friend",
-		username: "bff",
+		first_name: "Cam",
+		last_name: "Crews",
+		username: "ccrews",
 		password: "3",
 		distance_id: 3,
 		photo: open('http://static.wixstatic.com/media/3cc615_323631ae328f4ea2b8a4d8837f08107d.jpg_256')
@@ -58,38 +58,59 @@ User.create([
 Race.create([
 	{
 		id: 1,
-		name: "Race 1",
+		name: "New York 5K Race",
+		date: '2009-06-15T13:45:30',
 		details: "Race details 1",
-		address: "Race address 1",
-		distance: 5
+		address: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		distance: '5K'
 	},
 	{
 		id: 2,
-		name: "Race 2",
+		name: "New York 10K Race",
+		date: '2009-06-15T13:45:30',
 		details: "Race details 2",
-		address: "Race address 2",
-		distance: 10
+		address: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		distance: '10K'
 	},
 	{
 		id: 3,
-		name: "Race 3",
+		name: "Rock 'n Roll Half Marathon",
+		date: '2009-06-15T13:45:30',
 		details: "Race details 3",
-		address: "Race address 3",
-		distance: 21
+		address: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		distance: 'Half Marathon'
 	}
 ])
 
 Post.create([
 	{
 		id: 1,
-		title: "Post title 1",
-		body: "Post body 1",
+		title: "Christy's post 1",
+		body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin justo ante, convallis ut auctor eget, molestie et elit. Nam ex sapien, faucibus nec feugiat ut, convallis eu nulla. Maecenas semper eget purus faucibus semper. Donec scelerisque venenatis neque fermentum suscipit. Aenean nisi sem, finibus ut semper vel, fermentum cursus ipsum. Donec mauris diam, dictum sed ornare sed, bibendum malesuada massa. Sed quis elit ipsum.",
 		user_id: 1
 	},
 	{
 		id: 2,
-		title: "Post title 2",
-		body: "Post body 2",
+		title: "Kevin's post 1",
+		body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed eros vitae nibh facilisis malesuada. Sed lorem dolor, malesuada ornare nibh at, ultricies faucibus eros. Praesent felis odio, finibus ac ipsum in, maximus pulvinar dolor. Nunc a elit in lorem pulvinar elementum. Phasellus interdum non lectus nec ultricies. Nulla finibus arcu sit amet neque rhoncus faucibus. Nulla tincidunt viverra tortor, in dictum tellus. Vestibulum pulvinar elementum facilisis. In auctor mollis lacus vitae gravida. Maecenas sit amet tortor purus. Maecenas pulvinar porttitor mattis.",
+		user_id: 2
+	},
+	{
+		id: 3,
+		title: "Christy's post 2",
+		body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed eros vitae nibh facilisis malesuada. Sed lorem dolor, malesuada ornare nibh at, ultricies faucibus eros. Praesent felis odio, finibus ac ipsum in, maximus pulvinar dolor. Nunc a elit in lorem pulvinar elementum. Phasellus interdum non lectus nec ultricies. Nulla finibus arcu sit amet neque rhoncus faucibus. Nulla tincidunt viverra tortor, in dictum tellus. Vestibulum pulvinar elementum facilisis. In auctor mollis lacus vitae gravida. Maecenas sit amet tortor purus. Maecenas pulvinar porttitor mattis.",
+		user_id: 1
+	},
+	{
+		id: 4,
+		title: "Kevin's post 2",
+		body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed eros vitae nibh facilisis malesuada. Sed lorem dolor, malesuada ornare nibh at, ultricies faucibus eros. Praesent felis odio, finibus ac ipsum in, maximus pulvinar dolor. Nunc a elit in lorem pulvinar elementum. Phasellus interdum non lectus nec ultricies. Nulla finibus arcu sit amet neque rhoncus faucibus. Nulla tincidunt viverra tortor, in dictum tellus. Vestibulum pulvinar elementum facilisis. In auctor mollis lacus vitae gravida. Maecenas sit amet tortor purus. Maecenas pulvinar porttitor mattis.",
+		user_id: 2
+	},
+	{
+		id: 5,
+		title: "Kevin's post 3",
+		body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed eros vitae nibh facilisis malesuada. Sed lorem dolor, malesuada ornare nibh at, ultricies faucibus eros. Praesent felis odio, finibus ac ipsum in, maximus pulvinar dolor. Nunc a elit in lorem pulvinar elementum. Phasellus interdum non lectus nec ultricies. Nulla finibus arcu sit amet neque rhoncus faucibus. Nulla tincidunt viverra tortor, in dictum tellus. Vestibulum pulvinar elementum facilisis. In auctor mollis lacus vitae gravida. Maecenas sit amet tortor purus. Maecenas pulvinar porttitor mattis.",
 		user_id: 2
 	}
 ])

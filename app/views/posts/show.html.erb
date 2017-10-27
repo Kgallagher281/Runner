@@ -2,18 +2,15 @@
 
 <div class="show-post" class="page">
 
+	<div class="post">
+
 	<p id="notice"><%= notice %></p>
 
-	<p>
-	  <strong>Title:</strong>
-	  <%= @post.title %>
-	</p>
+	<h1 style="display: inline-block"><%= @post.title %></h1> <%= link_to 'Edit', edit_post_path(@post) %> 
 
 	<p>
-	  <strong>Body:</strong>
 	  <%= @post.body %>
 	</p>
-
-	<%= link_to 'Edit', edit_post_path(@post) %> |
+</div>
 
 </div>
