@@ -54,7 +54,7 @@ a:hover {
       .search-page .search-results ul li {
         list-style-type: none; }
 
-td {
+.table-align td {
   vertical-align: text-top; }
 
 .login {

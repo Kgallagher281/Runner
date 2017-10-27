@@ -10,29 +10,28 @@
         		<%= image_tag @user.photo.url(:medium) %>
         	</td>
         	<td>
-        		<h1><%= @user.first_name %> <%= @user.last_name %></h1>
-        		<h2>Distance: <%= @distance.description %> </h2>
-        		<%= link_to 'Edit', edit_user_path(@user) %> 
+        		<h1 style="display: inline-block;"><%= @user.first_name %> <%= @user.last_name %></h1> | <%= link_to 'Edit Profile', edit_user_path(@user) %>
+        		<h2>Distance: <%= @distance.description %> Races</h2> 
         	</td>
         </tr>
     </table>
 
 	<h2 style="display: inline-block;">Upcoming Races</h2> | <%= link_to 'Create New Race', new_race_path %>
 
-	<table>
+	<table class="table-align">
 
 	  <tbody>
 	    <% @user.races.each do |race| %>
 	      <tr>
 	      	<% if race.id == @current_user.id %>
-	      	<td><%= link_to 'x', race, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+	      	<td class="delete-button"><%= link_to 'x', race, method: :delete, data: { confirm: 'Are you sure?' } %></td>
 	      	<% end %>
 
-	      	<td><%= race.date.strftime("%B %d") %><br>
+	      	<td><%= race.date.strftime("%B %d, %Y") %><br>
 	      	<%= race.date.strftime("%I:%M%p") %></td>
-	      	<td><%= link_to race.name, race %></td>
-	        <td style="width: 240px;"><%= race.distance %> Race:<br><%= race.details %></td>
-	        <td style="width: 180px;"><%= race.address %></td>
+	      	<td style="font-weight: bold;"><%= link_to race.name, race %></td>
+	        <td style="width: 200px;"><%= race.distance %> Race:<br><%= race.details %></td>
+	        <td style="width: 170px;"><%= race.address %></td>
 
 	        <% if race.id == @current_user.id %>
 	        <td><%= link_to 'Edit', edit_race_path(race) %></td>
@@ -49,12 +48,12 @@
 	</table>
 
 	<h2 style="display: inline-block;">Your Posts</h2> | <%= link_to 'Create New Post', new_post_path %>
-	<table>
+	<table class="table-align">
 
 	  <tbody>
 	    <% @user.posts.each do |post| %>
 	      <tr>
-	      	<td><%= link_to 'x', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+	      	<td class="delete-button"><%= link_to 'x', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
 	        <td style="font-size: 1.05em; font-weight: bold;"><%= link_to post.title, post %></td>
 	        <td style="width: 505px;"><%= post.body %></td>
 	        <% if post.user_id == @current_user.id %>
