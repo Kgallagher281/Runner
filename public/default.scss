@@ -56,6 +56,27 @@ a:hover {
 	height: 300px;
 }
 
+.search-page {
+	padding: 50px 0;
+	.search-results {
+		border: orange solid;
+		background-color: #fddea6;
+		padding: 20px 100px;
+		padding-bottom: 50px;
+		width: 760px;
+		ul {
+			padding-left: 0;
+			li {
+				list-style-type: none;
+			}
+		}
+	}
+}
+
+td {
+	vertical-align: text-top;
+}
+
 // Login page
 
 .login {

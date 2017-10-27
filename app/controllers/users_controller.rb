@@ -6,7 +6,7 @@ class UsersController < ApplicationController
   # Show all of users posts
   def show
     @races = @current_user ? @current_user.races : []
-    @distance = Distance.where(id: @current_user.id)
+    @distance = Distance.find_by(id: @current_user.distance_id)
   end
 
   def search
