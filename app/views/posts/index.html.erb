@@ -17,13 +17,13 @@
           <td>
           <strong style="font-size: 1.25em;"><%= link_to post.title, post %></strong><br>
           <a style="font-size: 1.05em;" href="/users/<%= post.user.id %>">
-            <%= post.user.first_name + " " + post.user.last_name %>
-          </a>
+            <%= post.user.first_name + " " + post.user.last_name %> </a><br>
+            <%=post.created_at.in_time_zone(-4).strftime("%A, %b %e, %Y") %> | 
+            <%=post.created_at.in_time_zone(-4).strftime("%I:%M %p") %>
           </td>
         </tr>
     </table>
         <%= post.body %>
-        <p><%=post.created_at.strftime("%a %b %e, %Y %I:%M %p") %></p>
 
   </div>
   <br>
