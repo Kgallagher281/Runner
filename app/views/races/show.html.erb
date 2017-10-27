@@ -1,30 +1,30 @@
 <%= render 'home/navbar' %>
 
-<div class="show-race" class="page">
+<div class="race-page" class="page">
 
-  <h2>
-    <%= @race.name %>
-  </h2>
+  <div class="race">
 
-  <p>
-    <strong>Details:</strong>
-    <%= @race.details %>
-  </p>
+    <h2 style="display: inline-block;"><%= @race.name %></h2> | <%= link_to 'Edit', edit_race_path(@race) %> 
 
-  <p>
-    <strong>Date:</strong>
-    <%= @race.date %>
-  </p>
+    <p>
+      <strong>Date:</strong>
+      <%= @race.date %>
+    </p>
 
-  <p>
-    <strong>Address:</strong>
-    <%= @race.address %>
-  </p>
+    <p>
+      <strong>Address:</strong>
+      <%= @race.address %>
+    </p>
 
-  <p>
-    <strong>Distance:</strong>
-    <%= @race.distance %>
-  </p>
+    <p>
+      <strong>Details:</strong>
+      <%= @race.details %>
+    </p>
 
-  <%= link_to 'Edit', edit_race_path(@race) %> |
+    <p>
+      <strong>Distance:</strong>
+      <%= @race.distance %>
+    </p>
+
+  </div>
 </div>

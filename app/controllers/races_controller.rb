@@ -22,6 +22,7 @@ class RacesController < ApplicationController
     Race.transaction do 
       @race.save
       UserRace.create( race_id: @race.id, user_id: @current_user.id)
+    end
         respond_to do |format|
       if @race.id
         format.html { redirect_to @race, notice: 'Race was successfully created.' }
@@ -30,7 +31,6 @@ class RacesController < ApplicationController
         format.html { render :new }
         format.json { render json: @race.errors, status: :unprocessable_entity }
       end
-    end
   end
 end
 
@@ -51,7 +51,10 @@ end
   # DELETE /races/1
   # DELETE /races/1.json
   def destroy
-    @race.destroy
+    Race.transaction do
+      @race.user_races.destroy_all
+      @race.destroy
+    end
     respond_to do |format|
       format.html { redirect_to races_url, notice: 'Race was successfully destroyed.' }
       format.json { head :no_content }
