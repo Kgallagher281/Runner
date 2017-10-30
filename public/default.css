@@ -57,9 +57,9 @@ a:hover {
       width: 60px;
       height: 60px; }
 
-.form {
+.form, .new-post {
   padding: 50px 0; }
-  .form .form-table {
+  .form .form-table, .new-post .form-table {
     border: orange solid;
     background-color: #fddea6;
     padding: 20px 100px;

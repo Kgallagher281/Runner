@@ -1,8 +1,10 @@
 <%= render 'home/navbar' %>
 
-<div class="new-post" class="page">
+<div class="new-post" class="page" class="form">
 
-	<form action="/posts" method="POST">
+	<form class="form-table" action="/posts" method="POST">
+
+		<h1>Submit a new post:</h1>
 		<h4> Post Title<br><input type="text" name="post[title]" style="width: 200px"></h4>
 
 		<h4> Post Body<br><textarea name="post[body]" style="width: 300px;height:100px ;"></textarea></h4>
@@ -12,8 +14,6 @@
 	</form>
 
 	<br>
-
-	<%= link_to 'Previous', posts_path %>
 </div>
 
 
