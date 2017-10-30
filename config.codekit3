@@ -932,6 +932,17 @@
 		"oAP": "\/public\/favicon.ico",
 		"oF": 0
 		},
+	"\/public\/missing.png": {
+		"ft": 32768,
+		"iS": 15826,
+		"oA": 0,
+		"oAP": "\/public\/missing.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/public\/Rakefile.jpg": {
 		"ft": 16384,
 		"iS": 61320,
