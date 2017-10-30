@@ -10,13 +10,19 @@
         		<%= image_tag @user.photo.url(:medium) %>
         	</td>
         	<td>
-        		<h1 style="display: inline-block;"><%= @user.first_name %> <%= @user.last_name %></h1> | <%= link_to 'Edit Profile', edit_user_path(@user) %>
+        		<h1 style="display: inline-block;"><%= @user.first_name %> <%= @user.last_name %></h1>
+        		<% if params[:id] == @current_user.id.to_s %>
+        		 | <%= link_to 'Edit Profile', edit_user_path(@user) %>
+        		 <% end %>
         		<h2>Distance: <%= @distance.description %> Races</h2>
         	</td>
         </tr>
     </table>
 
-	<h2 style="display: inline-block;">Upcoming Races</h2> | <%= link_to 'Create New Race', new_race_path %>
+	<h2 style="display: inline-block;">Upcoming Races</h2>
+	<% if params[:id] == @current_user.id.to_s %>
+	 | <%= link_to 'Create New Race', new_race_path %>
+	 <% end %>
 
 	<table class="table-align">
 
@@ -53,14 +59,19 @@
 	  </tbody>
 	</table>
 
-	<h2 style="display: inline-block;">Your Posts</h2> | <%= link_to 'Create New Post', new_post_path %>
+	<h2 style="display: inline-block;">Your Posts</h2>
+	<% if params[:id] == @current_user.id.to_s %>
+	 | <%= link_to 'Create New Post', new_post_path %>
+	 <% end %>
 	<table class="table-align">
 
 	  <tbody>
 	  <% if @user.posts.length > 0 %>
 	    <% @user.posts.each do |post| %>
 	      <tr>
+	      	<% if post.user_id == @current_user.id %>
 	      	<td class="delete-button"><%= link_to 'x', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+	      	<% end %>
 	        <td style="width: 150px;"><strong style="font-size: 1.05em;"><%= link_to post.title, post %></strong><br>
 	        	<%=post.created_at.strftime("%b %e, %Y") %><br>
 	        	<%=post.created_at.in_time_zone(-4).strftime("%I:%M %p") %>
